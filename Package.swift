@@ -16,7 +16,7 @@ let package = Package(
     .library(name: "BidmadUnityAdsAdapter", targets: ["BidmadUnityAdsAdapterTarget"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.7")),
+    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0")),
     .package(url: "https://github.com/Unity-Technologies/Unity-Ads-Swift-Package.git", exact: "4.21.0"),
   ],
   targets: [
@@ -30,8 +30,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BidmadUnityAdsAdapter",
-      url: "https://github.com/bidmad/BidmadUnityAdsAdapter-SPM/releases/download/7.2.0-dev.7+4.21.0/BidmadUnityAdsAdapter.xcframework.zip",
-      checksum: "5da6bd50c3bbcc089e2e4fbd1eb45ee7d9f2447c0fa3eaa402c8d5c30535726e"
+      url: "https://github.com/bidmad/BidmadUnityAdsAdapter-SPM/releases/download/7.2.0+4.21.0/BidmadUnityAdsAdapter.xcframework.zip",
+      checksum: "355d2046ad9ee9b47e34fb28431edba47ea2d84a056b3b55ff9d175a49544a85"
     ),
   ]
 )
